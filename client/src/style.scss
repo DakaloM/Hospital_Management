@@ -1,21 +1,25 @@
 $themes: (
     light: (
-        textColor: #000,
+        textColor: black,
         bg: white,
-        bgSoft: rgb(246, 246, 246),
-        logo: darkblue,
-        textColorSoft: #555,
-        border: lightgray,
+        logo: rgb(76, 68, 134),
+        bgSoft: rgb(241, 241, 241),
+        textColorSoft:  rgb(138, 138, 138),
+        textSecondary: rgb(13, 171, 103),
+        border: rgb(184, 184, 184),
+        button: rgb(73, 73, 161)
 
 
     ),
     dark: (
         textColor: whitesmoke,
-        bg: #222,
+        bg: rgb(17, 20, 46),
         logo: white,
-        bgSoft: #333,
-        textColorSoft:  lightGray,
+        bgSoft: rgb(25, 30, 51),
+        textColorSoft:  rgb(130, 130, 130),
+        textSecondary: rgb(13, 171, 103),
         border: #444,
+        button: rgb(73, 73, 161)
 
 
     ),

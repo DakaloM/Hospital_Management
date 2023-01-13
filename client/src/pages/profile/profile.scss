@@ -1,0 +1,65 @@
+@import "../../style.scss";
+.profile {
+    @include themify($themes){
+
+        background-color: themed("bg");
+        margin-top: 20px;
+        height: calc(100vh - 90px);
+        -webkit-box-shadow: 0px -1px 14px -5px rgba(0,0,0,0.17);
+        -moz-box-shadow: 0px -1px 14px -5px rgba(0,0,0,0.17);
+        box-shadow: 0px -1px 14px -5px rgba(0,0,0,0.17);
+
+        .container {
+            padding: 40px;
+            
+            display: flex;
+
+            .left {
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    margin-bottom: 30px;
+                }
+                .userInfo {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+
+                    span {
+                        font-size: 30px;
+                        font-weight: 500;
+                        color: themed("textSecondary");
+                        text-align: center;
+                    }
+
+                    .item {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        -webkit-box-shadow: 0px -1px 14px -5px rgba(0,0,0,0.17);
+                        -moz-box-shadow: 0px -1px 14px -5px rgba(0,0,0,0.17);
+                        box-shadow: 0px -1px 14px -5px rgba(0,0,0,0.17);
+                        padding: 10px 20px;
+
+                        .label, 
+                        .value {
+                            font-size: 18px;
+                            font-weight: 500;
+                            color: themed("textColorSoft")
+                        }
+                        .label {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

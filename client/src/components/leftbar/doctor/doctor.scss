@@ -1,0 +1,41 @@
+@import "../../../style.scss";
+.doctor {
+    @include themify($themes){
+        padding: 0;
+
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 0 ;
+
+            .item {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: calc(100% - 20px);
+                padding: 10px;
+                border-radius: 5px;
+                background-color: themed("bgSoft");
+                -webkit-box-shadow: -1px -1px 14px -6px rgba(0,0,0,0.17);
+                -moz-box-shadow: -1px -1px 14px -6px rgba(0,0,0,0.17);
+                box-shadow: -1px -1px 14px -6px rgba(0,0,0,0.17);
+                
+                .icon {
+                    margin-right: 25px;
+                    font-size: 25px;
+                    color: themed("logo");
+                    
+                }
+
+                span {
+                    color: themed("textColorSoft");
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
