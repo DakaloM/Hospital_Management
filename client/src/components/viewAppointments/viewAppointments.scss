@@ -1,0 +1,96 @@
+@import "../../style.scss";
+.viewAppointments {
+    @include themify($themes){
+        
+
+        .viewContainer {
+            padding: 30px 0;
+            width: 100%;
+
+            .top{
+                width:100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 30px;
+
+                .left {
+                    display: flex;
+                    align-items: center;
+
+                }
+
+                .right {
+                    span {
+                        color: themed("textColor");
+                    }
+                }
+            }
+
+            .content {
+                width: 100%;
+
+                table, th, td {
+                    border: 1px solid themed("border");
+                    border-collapse: collapse;
+                  }
+
+                table {
+                    width: 70%;
+
+                    thead {
+                        height: 50px;
+                        background-color: themed("textSecondary");
+
+                        td{
+                            padding-left: 10px;
+                            font-size: 20px;
+                            font-weight: 500;
+                            color: white;
+                        }
+                    }
+                    tr {
+                        height: 50px;
+                        .actions {
+                            width: 200px;
+                        }
+                        td {
+                            padding-left: 10px;
+                            font-weight: 500;
+                            color: themed("textColorSoft");
+
+                                .option {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    button {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-evenly;
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        border: none;
+                                        border-radius: 1px;
+                                        color: white;
+                                        width: 65px;
+                                        height: 30px;
+                                        cursor: pointer;
+                                        margin: 0 10px;
+                                    }
+
+                                    .delete {
+                                        background-color: themed("deleteBtn");
+                                    }
+                                    .edit {
+                                        background-color: themed("editBtn");
+                                    }
+                                }
+                                
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

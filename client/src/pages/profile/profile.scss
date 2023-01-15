@@ -11,11 +11,11 @@
 
         .container {
             padding: 40px;
-            
             display: flex;
+            gap: 50px;
 
             .left {
-
+                flex: 0.4;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -56,6 +56,90 @@
                         }
                         .label {
                             margin-right: 10px;
+                        }
+                    }
+                }
+            }
+
+            .right {
+                flex: 0.6;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0 30px;
+                gap: 50px;
+                .top {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    span {
+                        font-size: 30px;
+                        font-weight: 500;
+                        color: themed("textSecondary");
+                        text-align: center;
+                        margin-bottom: 20px;
+                    }
+
+                    .info {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-evenly;
+                        align-items: center;
+
+                        .item {
+                            display: flex;
+                            flex-direction: column;
+                            gap:0px;
+                            .label {
+                                color: themed("logo");
+                                font-size: 18px;
+                                line-height: 18px;
+                            }
+
+                            .value {
+                                font-size: 16px;
+                                line-height: 18px;
+                            }
+                        }
+                    }
+                }
+
+                .bottom {
+                    display: flex;
+                    flex-direction: column;
+                    .heading {
+                        width: 100%;
+                        font-size: 30px;
+                        font-weight: 500;
+                        color: themed("textSecondary");
+                        text-align: center;
+                        margin-bottom: 40px;
+                        text-align: center;
+                        
+                    }
+
+                    .bio {
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        gap: 15px;
+
+                        
+                        .label, 
+                        .value {
+                            text-align: left;
+                            font-size: 18px;
+                            font-weight: 500;
+                            color: themed("textColorSoft")
+                        }
+
+                        .label{
+                            height: 15px;
+                            margin-bottom: 0;
+                            color:themed("logo")
                         }
                     }
                 }

@@ -20,42 +20,42 @@ const Admin = () => {
   return (
     <div className='admin'>
         <div className="container">
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/dashboard" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                 <DashboardOutlinedIcon className='icon' />
                 <span>Dashboard</span>
               </div>
             </Link>
             
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/doctors" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <PeopleIcon className='icon' />
-                  <span>Manage Doctors</span>
+                  <span>View Doctors</span>
               </div>
             
             </Link>
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/nurses" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <Person4Icon className='icon' />
                   <span>Manage Nurses</span>
               </div>
             
             </Link>
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/receptionists" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <Face6Icon className='icon' />
                   <span>Manage Receptionists</span>
               </div>
             
             </Link>
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/accountants" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <AccountBalanceIcon className='icon' />
                   <span>Manage Accountants</span>
               </div>
             
             </Link>
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/pharmacists" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <LocalPharmacyIcon className='icon' />
                   <span>Manage Pharmacists</span>
@@ -63,7 +63,7 @@ const Admin = () => {
             
             </Link>
             
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/patients/viewPatients" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <PeopleIcon className='icon' />
                   <span>Manage Patients</span>

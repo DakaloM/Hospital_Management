@@ -1,0 +1,51 @@
+@import "../../style.scss";
+.dashboards {
+    @include themify($themes){
+
+        margin-top: 20px;
+        min-height: calc(100vh - 90px);
+        background-color: themed("bg");
+        
+        .container {
+            padding: 50px;
+            .top{
+                width: 100%;
+                padding: 20px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                .item {
+                    width: 25%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column ;
+                    background-color: themed("bgSoft");
+                    height: 200px;
+                    width: 300px;
+                    -webkit-box-shadow: 1px 1px 26px -20px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 1px 1px 26px -20px rgba(0,0,0,0.75);
+                    box-shadow: 1px 1px 26px -20px rgba(0,0,0,0.75);
+
+                    span {
+                        font-size: 35px;
+                        font-weight: 500;
+                        margin-bottom: 10px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                }
+
+                
+            }
+
+            hr{
+                border: 1px solid themed("border");
+            }
+        }
+    }
+}

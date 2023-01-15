@@ -16,62 +16,62 @@ const Nurse = () => {
   return (
     <div className='nurse'>
         <div className="container">
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/dashboard" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                 <DashboardOutlinedIcon className='icon' />
                 <span>Dashboard</span>
               </div>
             </Link>
             
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/patients/viewpatients" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <PeopleIcon className='icon' />
-                  <span>Manage Patients</span>
+                  <span>View Patients</span>
               </div>
             
             </Link>
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/vitals/viewVitals" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <DeviceThermostatOutlinedIcon className='icon' />
                   <span>Manage Vitals</span>
               </div>
             </Link>
 
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/appointments/viewAppointments" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <WatchLaterIcon className='icon' />
                   <span>View Doctors Appointments</span>
               </div>
             </Link>
 
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/bloodDonors/viewDonors" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <BloodtypeIcon className='icon' />
                   <span>Blood Donors</span>
               </div>
             </Link>
 
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/operationReports/viewOperationReports" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <FeedIcon className='icon' />
                   <span>Operation Reports</span>
               </div>
               </Link>
 
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/birthReports/viewBirthReports" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
             <div className="item">
                 <ChildFriendlyIcon className='icon' />
                 <span>Birth Reports</span>
             </div>
             </Link>
 
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/deathReports/viewDeathReports" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <ErrorIcon className='icon' />
                   <span>Dearth Reports</span>
               </div>
             </Link>
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/profile" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <SettingsOutlinedIcon className='icon' />
                   <span>Profile</span>

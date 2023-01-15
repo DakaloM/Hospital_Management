@@ -42,7 +42,7 @@ const Leftbar = () => {
         <div className="container">
           
 
-          <div className="profile">
+          <div className="userProfile">
             <img src="https://images.pexels.com/photos/3781543/pexels-photo-3781543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
             <div className="info">
               <span className='name'>Dakalo Mbulaheni</span>
@@ -50,7 +50,7 @@ const Leftbar = () => {
             </div>
           </div>
 
-          <Reception />
+          <Admin />
         </div>
     </div>
   )

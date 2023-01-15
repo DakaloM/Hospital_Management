@@ -1,0 +1,11 @@
+@import "../../style.scss";
+.appointments {
+    @include themify($themes){
+
+        margin-top: 20px;
+        min-height: calc(100vh - 90px);
+        background-color: themed("bg");
+        
+       
+    }
+}

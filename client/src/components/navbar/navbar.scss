@@ -7,6 +7,8 @@
         display: flex;
         align-items: center;
         background-color: themed("bg");
+        position: sticky;
+        top:0;
         -webkit-box-shadow: -9px 11px 14px -12px rgba(0,0,0,0.17);
         -moz-box-shadow: -9px 11px 14px -12px rgba(0,0,0,0.17);
         box-shadow: -9px 11px 14px -12px rgba(0,0,0,0.17);

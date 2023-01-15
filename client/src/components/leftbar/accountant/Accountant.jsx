@@ -10,30 +10,30 @@ const Accountant = () => {
   return (
     <div className='accountant'>
         <div className="container">
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/dashboard" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                 <DashboardOutlinedIcon className='icon' />
                 <span>Dashboard</span>
               </div>
             </Link>
             
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/payments/viewPayments" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <AccountBalanceWalletIcon className='icon' />
-                  <span>Payments</span>
+                  <span>View Payments</span>
               </div>
             
             </Link>
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/invoices/viewInvoices" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <ReceiptIcon className='icon' />
-                  <span>Invoices</span>
+                  <span>View Invoices</span>
               </div>
             
             </Link>
             
 
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/profile" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <SettingsOutlinedIcon className='icon' />
                   <span>Profile</span>

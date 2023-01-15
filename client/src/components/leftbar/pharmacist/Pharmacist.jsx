@@ -11,38 +11,39 @@ const Pharmacist = () => {
   return (
     <div className='pharmacist'>
         <div className="container">
-        <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+        <Link to="/dashboard" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                 <DashboardOutlinedIcon className='icon' />
                 <span>Dashboard</span>
               </div>
             </Link>
             
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/medication/viewMedications" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <AccountBalanceWalletIcon className='icon' />
                   <span>Manage Medication</span>
               </div>
             
             </Link>
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/prescriptions/viewPrescriptions" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
-                  <MonetizationOnIcon className='icon' />
-                  <span>Medication Prices</span>
+                  <AccountBalanceWalletIcon className='icon' />
+                  <span>View Prescription</span>
               </div>
             
             </Link>
+            
 
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/patients/viewPatients" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <PeopleIcon className='icon' />
-                  <span>Patients</span>
+                  <span>View Patients</span>
               </div>
             
             </Link>
             
 
-            <Link to="/" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
+            <Link to="/profile" style={{width: "80%", padding: "0 ", textDecoration: "none"}}>
               <div className="item">
                   <SettingsOutlinedIcon className='icon' />
                   <span>Profile</span>
